@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #fafafa;
+    --foreground: #18181b;
+    --muted: #f4f4f5;
+    --muted-foreground: #71717a;
+    --popover: #ffffff;
+    --popover-foreground: #18181b;
+    --card: #ffffff;
+    --card-foreground: #18181b;
+    --border: #e4e4e7;
+    --input: #e4e4e7;
+    --primary: #18181b;
+    --primary-foreground: #fafafa;
+    --secondary: #f4f4f5;
+    --secondary-foreground: #18181b;
+    --accent: #e4e4e7;
+    --accent-foreground: #18181b;
+    --destructive: #ef4444;
+    --destructive-foreground: #fafafa;
+    --ring: #18181b;
+    --radius: 0.5rem;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+/* MDX Content Styles */
+@layer components {
+  .mdx-content {
+    @apply text-gray-700 leading-relaxed;
+  }
+
+  .mdx-content h1 {
+    @apply text-4xl md:text-5xl font-bold text-gray-900 mb-8 pb-4 border-b-2 border-blue-600;
+  }
+
+  .mdx-content h2 {
+    @apply text-3xl font-semibold text-gray-800 mt-12 mb-6 pb-2 border-b border-gray-200;
+  }
+
+  .mdx-content h3 {
+    @apply text-2xl font-semibold text-gray-800 mt-10 mb-4;
+  }
+
+  .mdx-content h4 {
+    @apply text-xl font-semibold text-gray-700 mt-8 mb-3;
+  }
+
+  .mdx-content h5 {
+    @apply text-lg font-semibold text-gray-700 mt-6 mb-3;
+  }
+
+  .mdx-content h6 {
+    @apply text-base font-semibold text-gray-600 mt-4 mb-2;
+  }
+
+  .mdx-content p {
+    @apply text-gray-700 leading-relaxed mb-4 text-base;
+  }
+
+  .mdx-content ul {
+    @apply list-disc list-inside space-y-2 mb-6 ml-4 text-gray-700;
+  }
+
+  .mdx-content ol {
+    @apply list-decimal list-inside space-y-2 mb-6 ml-4 text-gray-700;
+  }
+
+  .mdx-content li {
+    @apply leading-relaxed mb-1;
+  }
+
+  .mdx-content strong {
+    @apply font-semibold text-gray-900;
+  }
+
+  .mdx-content em {
+    @apply italic text-gray-800;
+  }
+
+  .mdx-content hr {
+    @apply my-8 border-0 h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent;
+  }
+
+  .mdx-content blockquote {
+    @apply border-l-4 border-blue-500 pl-6 py-4 my-6 bg-blue-50 italic text-gray-700 rounded-r-lg;
+  }
+
+  .mdx-content code {
+    @apply bg-gray-100 text-gray-800 px-2 py-1 rounded text-sm font-mono;
+  }
+
+  .mdx-content pre {
+    @apply bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto mb-6 text-sm;
+  }
+
+  .mdx-content a {
+    @apply text-blue-600 hover:text-blue-800 underline hover:no-underline transition-colors duration-200;
+  }
+
+  /* Callout Styles */
+  .callout {
+    @apply border-l-4 border-gray-400 bg-gray-50 text-gray-800 p-4 mb-6 rounded-r-lg;
+  }
+
+  .callout.info {
+    @apply border-blue-400 bg-blue-50 text-blue-800;
+  }
+
+  .callout.warning {
+    @apply border-yellow-400 bg-yellow-50 text-yellow-800;
+  }
+
+  .callout.success {
+    @apply border-green-400 bg-green-50 text-green-800;
+  }
+
+  .callout.error {
+    @apply border-red-400 bg-red-50 text-red-800;
+  }
+}
