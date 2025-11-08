@@ -1,15 +1,25 @@
-import type { NextConfig } from "next";
 import createMDX from '@next/mdx'
-
-
-const nextConfig: NextConfig = {
-    // Configure `pageExtensions` to include markdown and MDX files
+ 
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
-  // Optionally, add any other Next.js config below
-};
-
+}
+ 
 const withMDX = createMDX({
-  extension: /\.(md|mdx)$/,
+  options: {
+    remarkPlugins: [
+      // Without options
+      //'remark-gfm',
+      // With options
+      //['remark-toc', { heading: 'The Table' }],
+    ],
+    rehypePlugins: [
+      // Without options
+      //'rehype-slug',
+      // With options
+      //['rehype-katex', { strict: true, throwOnError: true }],
+    ],
+  },
 })
-
-export default withMDX(nextConfig);
+ 
+export default withMDX(nextConfig)

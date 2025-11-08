@@ -69,13 +69,13 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="w-full py-12 px-4 text-center">
+      <section className="w-full py-8 px-4 text-center">
         <h2 className="text-2xl font-bold mb-4">¿Por qué elegirnos?</h2>
         <p className="max-w-2xl mx-auto text-lg">Ofrecemos la mejor selección de accesorios para celular, atención personalizada y envíos rápidos a todo México.</p>
       </section>
 
       {/* Contact Section */}
-      <section className="max-w-5xl mx-auto py-12 px-4 text-center">
+      <section className="max-w-5xl mx-auto py-8 px-4 text-center">
         <h2 className="text-2xl font-bold mb-4">¿Tienes dudas?</h2>
         <p className="mb-4">Contáctanos y te ayudamos a encontrar el accesorio perfecto para tu celular.</p>
         <Link href="/contacto" className="inline-block px-6 py-3 rounded-lg font-semibold shadow transition-colors">Contacto</Link>
