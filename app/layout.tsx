@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     title: 'Celfun | Accesorios para Celular',
     description: 'Encuentra los mejores accesorios para tu celular en Celfun.',
     images: [{
-      url: '/globe.svg',
+      url: '/logo.svg',
       width: 120,
       height: 120,
       alt: 'Celfun - Accesorios para Celular',

@@ -21,7 +21,7 @@ export const metadata = {
     siteName: "Celfun",
     images: [
       {
-        url: "/globe.svg",
+        url: "/logo.svg",
         width: 120,
         height: 120,
         alt: "Accesorios para celular Celfun"
