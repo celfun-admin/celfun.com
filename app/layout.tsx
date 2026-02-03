@@ -1,6 +1,7 @@
 
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "@/app/globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -72,6 +73,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+          <Script
+            strategy="afterInteractive"
+            src="https://cloud.umami.is/script.js"
+            data-website-id="2c353f93-c979-47f1-81b2-c79d6d862a18"
+          />
           <Header />
           {children}
           <Footer />
