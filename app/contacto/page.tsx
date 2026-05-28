@@ -53,14 +53,14 @@ const ContactPage = () => {
               <p className="text-gray-600 mb-6">Contáctanos directamente por WhatsApp para una respuesta rápida.</p>
               <div className="space-y-3">
                 <a
-                  href="https://wa.me/527773129053"
+                  href="https://wa.me/527773142332"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center p-4 bg-green-50 rounded-lg hover:bg-green-100 transition-colors group"
                 >
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-900">Consultas de Ventas</h4>
-                    <p className="text-sm text-gray-600">777 312 9053</p>
+                    <p className="text-sm text-gray-600">777 314 2332</p>
                   </div>
                   <svg className="w-5 h-5 text-green-600 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -96,11 +96,12 @@ const ContactPage = () => {
               <p className="text-gray-600 mb-6">Habla directamente con nuestro equipo de especialistas.</p>
               <div className="space-y-3">
                 <a
-                  href="tel:+527773129053"
+                  href="tel:+527774046658"
                   className="flex items-center p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors group"
                 >
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-900">Ventas</h4>
+                    <p className="text-sm text-gray-600">777 404 6658</p>
                     <p className="text-sm text-gray-600">Lun - Dom, 10:00 AM - 7:30 PM</p>
                   </div>
                   <svg className="w-5 h-5 text-blue-600 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -113,6 +114,7 @@ const ContactPage = () => {
                 >
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-900">Reparaciones</h4>
+                    <p className="text-sm text-gray-600">777 681 9300</p>
                     <p className="text-sm text-gray-600">Lun - Dom, 10:00 AM - 7:30 PM</p>
                   </div>
                   <svg className="w-5 h-5 text-blue-600 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -120,11 +122,12 @@ const ContactPage = () => {
                   </svg>
                 </a>
                 <a
-                  href="tel:+527774046658"
+                  href="tel:+527773129053"
                   className="flex items-center p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors group"
                 >
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-900">Atención al Cliente</h4>
+                    <p className="text-sm text-gray-600">777 312 9053</p>
                     <p className="text-sm text-gray-600">Lun - Dom, 10:00 AM - 7:30 PM</p>
                   </div>
                   <svg className="w-5 h-5 text-blue-600 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
